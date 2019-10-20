@@ -1,4 +1,6 @@
-package ru.itpark.model;
+package ru.itpark;
+
+import ru.itpark.model.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,7 +17,7 @@ public class Main {
         System.out.println(watchTariff.getName() + "\n"
                 + watchTariff.getDescription() + "\n"
                 + watchTariff.getVoiceCalls() + "\n"
-                + watchTariff.getInternetInGB() + "\n"
+                + watchTariff.getInternetInGB()+ "\n"
                 + watchTariff.getSMS() + "\n"
                 + watchTariff.getPrice()
 
