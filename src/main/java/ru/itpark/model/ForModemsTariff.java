@@ -9,4 +9,20 @@ public class ForModemsTariff extends Tariff {
         this.internetInGb = internetInGb;
         this.timePeriod = timePeriod;
     }
+
+    public int getInternetInGb() {
+        return internetInGb;
+    }
+
+    public void setInternetInGb(int internetInGb) {
+        this.internetInGb = internetInGb;
+    }
+
+    public String getTimePeriod() {
+        return timePeriod;
+    }
+
+    public void setTimePeriod(String timePeriod) {
+        this.timePeriod = timePeriod;
+    }
 }
