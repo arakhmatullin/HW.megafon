@@ -43,4 +43,9 @@ public class Tariff {
         return extendedOptions;
     }
 
+    public void printExtendedOptions(){
+        for (ExtendedOption extendedOption : extendedOptions){
+            System.out.println(extendedOption.getName());
+        }
+    }
 }
